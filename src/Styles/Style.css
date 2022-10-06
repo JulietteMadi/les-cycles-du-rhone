@@ -1,0 +1,71 @@
+font-face {
+    font-family: 'Nunito';
+    src: url('../Fonts/nunito-regular-webfont.eot'); 
+    src: url('../Fonts/nunito-regular-webfont.eot') format('embedded-opentype'),
+         url('../Fonts/nunito-regular-webfont.woff') format('woff'),
+         url('../Fonts/nunito-regular-webfont.ttf')  format('truetype'),
+         url('../Fonts/nunito-regular-webfont.svg') format('svg');
+   }
+
+   font-face {
+    font-family: 'NunitoSemiBold';
+    src: url('../Fonts/nunito-semibold-webfont.eot'); 
+    src: url('../Fonts/nunito-semibold-webfont.eot') format('embedded-opentype'),
+         url('../Fonts/nunito-semibold-webfont.woff') format('woff'),
+         url('../Fonts/nunito-semibold-webfont.ttf')  format('truetype'),
+         url('../Fonts/nunito-semibold-webfont.svg') format('svg');
+   }
+
+   font-face {
+    font-family: '29LTAzer';
+    src: url('../Fonts/29LTAzer.eot'); 
+    src: url('../Fonts/29LTAzer.eot') format('embedded-opentype'),
+         url('../Fonts/29ltazer-webfont.woff') format('woff'),
+         url('../Fonts/29ltazer-webfont.ttf')  format('truetype'),
+         url('../Fonts/29ltazer-webfont.svg') format('svg');
+   }
+
+
+
+h1, h2 {
+    font-family: '29LTAzer', Helvetica, Arial, sans-serif;
+    color: #45B8E6;
+    text-transform: uppercase;
+
+}
+
+h3, h4 {
+    font-family: '29LTAzer', Helvetica, Arial, sans-serif;
+    color: #E9A880 ;
+    margin-top: 2em;
+}
+
+p {
+    font-family: 'Nunito', Helvetica, sans-serif;
+    color: #2E3E4D;
+}
+
+button {
+    background-color: #E9A880;
+    color: white;
+    border-radius: 2px 8px;
+    border-width: 0;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #B34524;
+    transform: translate(1px, 1px);
+    cursor: pointer;
+}
+
+em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bigPicturesRadius {
+    border-radius: 2px 15px;
+}

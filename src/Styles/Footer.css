@@ -1,0 +1,22 @@
+.footerStyle {
+    text-align: center;
+    align-items: center;
+    background-color: #2E3E4D;
+    padding: 4% 4% 0% 8%;
+}
+
+.footerData {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    font-size: x-small;
+    justify-content: center;
+}
+
+.mentionsLegales{
+    color: #FFFFFF;
+}
+
+.mentionsLegales:hover{
+    cursor: pointer;
+}

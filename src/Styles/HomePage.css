@@ -1,0 +1,126 @@
+.mainBackground {
+    background-image: url("../Assets/LCDR_Banniere_Light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.iceBreaker {
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    padding: 4%;
+    background-color: rgba(255, 255, 255, 0.85)
+}
+
+.leConcept {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 5% 8%;
+    animation: 3s ease-in 1s 2 reverse both paused slidein;
+}
+
+.leConceptText {
+    text-align: right;
+    flex-grow: inherit;
+}
+
+.leConceptImage {
+    width: 80%;
+    margin: 20px 0px;
+    background-image: url('../Assets/Arthur.jpeg');
+    background-position: top center;
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    margin: 4% 0%;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../Assets/CTABanniere.png');
+}
+
+.callToActionText{
+    color: white;
+    flex: 0 0 60%;
+}
+
+.callToActionButton{
+    font-weight: 700;
+}
+
+.infoPratique{
+    display: flex;
+    flex-direction: row;
+    padding: 4% 8%;
+    gap: 8%;
+}
+
+.infoPratiqueCarte {
+    width: 35%;
+    min-width: 325px;
+}
+
+.infoPratiqueHorairesFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-bottom: 5px;
+}
+
+.infoPratiqueJours {
+    text-align: right;
+    font-weight: 700;
+    flex: 25%;
+}
+
+.infoPratiquesHoraires {
+    flex: 75%;
+}
+
+
+
+@media only screen and (max-width: 920px) {
+    .leConcept {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        padding: 5% 8%;
+        align-items: center;
+    }
+
+    .leConceptText {
+        text-align: center;
+    }
+
+    .leConceptImage {
+        height: 200px;
+        width: 100%;
+        margin: 20px 0px;
+        border-radius: 15px 2px 15px;
+        background-image: url('../Assets/Arthur.jpeg');
+        background-position: top center;
+    }
+
+    .infoPratique{
+        text-align: center;
+    }
+
+    .infoPratiqueCarte {
+        display: none;
+    }
+    .infoPratiquesHoraires {
+        flex: 50%;
+        text-align: left;
+    }
+
+    .infoPratiqueJours {
+        flex: 50%;
+        text-align: right;
+    }
+    
+}
