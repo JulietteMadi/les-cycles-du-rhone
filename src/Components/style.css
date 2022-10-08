@@ -1,3 +1,7 @@
+:root {
+    --primaryBlue: #45B8E6;
+}
+
 font-face {
     font-family: 'Nunito';
     src: url('../Fonts/nunito-regular-webfont.eot'); 
@@ -29,7 +33,7 @@ font-face {
 
 h1, h2 {
     font-family: '29LTAzer', Helvetica, Arial, sans-serif;
-    color: #45B8E6;
+    color: var(--primaryBlue);
     text-transform: uppercase;
 
 }
@@ -66,6 +70,3 @@ em {
     font-style: normal;
 }
 
-.bigPicturesRadius {
-    border-radius: 2px 15px;
-}

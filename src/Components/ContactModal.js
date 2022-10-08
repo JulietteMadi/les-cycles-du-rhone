@@ -1,5 +1,3 @@
-import '../Styles/ContactModal.css'
-import '../Styles/Style.css'
 
 const ContactModal = (props) => {
     return (

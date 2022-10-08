@@ -1,7 +1,7 @@
-import '../Styles/Footer.css'
-import '../Datas/FooterData'
-import { FooterData } from '../Datas/FooterData'
-import logo from "../Assets/TitreLCDR_BLANC.svg"
+import './style.css'
+import '../../Datas/FooterData'
+import { FooterData } from '../../Datas/FooterData'
+import logo from "../../Assets/TitreLCDR_BLANC.svg"
 
 function Footer () {
     return(

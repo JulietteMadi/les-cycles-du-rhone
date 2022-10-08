@@ -1,7 +1,6 @@
-import '../Styles/Style.css'
-import '../Styles/Header.css'
-import Titre from '../Assets/TitreLCDR.png'
-import Logo from "../Assets/LogoLCDR.png"
+import './style.css'
+import Titre from '../../Assets/TitreLCDR.png'
+import Logo from "../../Assets/LogoLCDR.png"
 
 function Header () {
     return(
