@@ -1,0 +1,51 @@
+.infoPratique{
+    display: flex;
+    flex-direction: row;
+    padding: 4% 8%;
+    margin: 4% 0;
+    gap: 8%;
+}
+
+.infoPratiqueCarte {
+    width: 40%;
+    min-width: 350px;
+    height: fit-content;
+}
+
+.infoPratiqueHorairesFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-bottom: 5px;
+}
+
+.infoPratiqueJours {
+    text-align: right;
+    font-weight: 700;
+    flex: 25%;
+}
+
+.infoPratiquesHoraires {
+    flex: 75%;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .infoPratique{
+        text-align: center;
+    }
+
+    .infoPratiqueCarte {
+        display: none;
+    }
+    .infoPratiquesHoraires {
+        flex: 50%;
+        text-align: left;
+    }
+
+    .infoPratiqueJours {
+        flex: 50%;
+        text-align: right;
+    }
+    
+}

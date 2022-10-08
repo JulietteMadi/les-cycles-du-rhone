@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Le design de ce site est basé sur l'atomic design présenté sur ce site : 
+https://uxdesign.cc/atomic-design-2022-what-we-can-learn-from-eames-and-other-design-giants-4d8e2f579daa

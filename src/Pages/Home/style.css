@@ -1,0 +1,31 @@
+
+.iceBreaker {
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    padding: 4%;
+    width: 92%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.85)
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    margin: 4% 0%;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../../Assets/CTABanniere.png');
+}
+
+.callToActionText{
+    color: white;
+    flex: 0 0 60%;
+}
+
+.callToActionButton{
+    font-weight: 700;
+}
