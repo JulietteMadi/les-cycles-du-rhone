@@ -1,5 +1,5 @@
-import Image from '../../Components/Image'
-import ArthurBG from '../../Assets/Arthur.jpeg'
+import Image from '../../Atoms/Image'
+import ArthurBG from '../../../Assets/ArthurLyon.jpg'
 
 import './style.css';
 

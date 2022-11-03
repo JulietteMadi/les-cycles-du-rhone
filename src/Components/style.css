@@ -70,3 +70,17 @@ em {
     font-style: normal;
 }
 
+.bigRd{
+    border-radius: 2px 15px;
+}
+
+input {
+    border: gainsboro 1px solid;
+    border-radius: 1px;
+    background-color: #f2f2f2;
+}
+
+input:focus{
+    box-shadow: 0px 0px 4px 4px gainsboro;
+    outline: none;
+}

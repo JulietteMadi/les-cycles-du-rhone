@@ -1,5 +1,5 @@
-import { mesHoraires } from '../../Datas/Horaires';
-import carteRhone from '../../Assets/CarteRhone.png';
+import { mesHoraires } from '../../../Datas/Horaires';
+import carteRhone from '../../../Assets/CarteRhone.png';
 
 import "./style.css";
 

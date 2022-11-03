@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Components/style.css';
 import reportWebVitals from './reportWebVitals';
-import HomePage from './Pages/Home';
-import Footer from './Modules/Footer';
-import Header from './Modules/Header';
+import HomePage from './Components/Pages/Home';
+import Footer from './Components/Organisms/Footer';
+import Header from './Components/Organisms/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

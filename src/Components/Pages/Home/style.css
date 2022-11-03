@@ -18,7 +18,7 @@
     margin: 4% 0%;
     justify-content: space-around;
     align-items: center;
-    background: url('../../Assets/CTABanniere.png');
+    background: url('../../../Assets/CTABanniere.png');
 }
 
 .callToActionText{
