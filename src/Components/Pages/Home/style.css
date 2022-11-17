@@ -1,4 +1,3 @@
-
 .iceBreaker {
     text-align: center;
     text-transform: none;
@@ -21,11 +20,11 @@
     background: url('../../../Assets/CTABanniere.png');
 }
 
-.callToActionText{
+.callToActionText {
     color: white;
     flex: 0 0 60%;
 }
 
-.callToActionButton{
+.callToActionButton {
     font-weight: 700;
 }

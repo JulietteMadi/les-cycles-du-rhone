@@ -1,7 +1,7 @@
 .footerStyle {
     text-align: center;
     align-items: center;
-    background-color: #2E3E4D;
+    background-color: var(--primaryDark);
     padding: 4% 4% 0% 8%;
 }
 
@@ -19,4 +19,20 @@
 
 .mentionsLegales:hover{
     cursor: pointer;
+}
+
+.footerLogo{
+    width: 15%;
+}
+
+@media only screen and (max-width: 920px) {
+    .footerLogo{
+        width: 25%
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .footerLogo{
+        width: 40%
+    }
 }

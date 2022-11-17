@@ -1,56 +1,37 @@
 :root {
     --primaryBlue: #45B8E6;
+    --primaryOrange: #E9A880;
+    --secondaryOrange: #B34524;
+    --primaryDark: #2E3E4D;
 }
 
-font-face {
-    font-family: 'Nunito';
-    src: url('../Fonts/nunito-regular-webfont.eot'); 
-    src: url('../Fonts/nunito-regular-webfont.eot') format('embedded-opentype'),
-         url('../Fonts/nunito-regular-webfont.woff') format('woff'),
-         url('../Fonts/nunito-regular-webfont.ttf')  format('truetype'),
-         url('../Fonts/nunito-regular-webfont.svg') format('svg');
-   }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
 
-   font-face {
-    font-family: 'NunitoSemiBold';
-    src: url('../Fonts/nunito-semibold-webfont.eot'); 
-    src: url('../Fonts/nunito-semibold-webfont.eot') format('embedded-opentype'),
-         url('../Fonts/nunito-semibold-webfont.woff') format('woff'),
-         url('../Fonts/nunito-semibold-webfont.ttf')  format('truetype'),
-         url('../Fonts/nunito-semibold-webfont.svg') format('svg');
-   }
-
-   font-face {
-    font-family: '29LTAzer';
-    src: url('../Fonts/29LTAzer.eot'); 
-    src: url('../Fonts/29LTAzer.eot') format('embedded-opentype'),
-         url('../Fonts/29ltazer-webfont.woff') format('woff'),
-         url('../Fonts/29ltazer-webfont.ttf')  format('truetype'),
-         url('../Fonts/29ltazer-webfont.svg') format('svg');
-   }
-
-
+* {
+    box-sizing: content-box;
+}
 
 h1, h2 {
-    font-family: '29LTAzer', Helvetica, Arial, sans-serif;
+    font-family: "Baloo 2", sans-serif;
     color: var(--primaryBlue);
     text-transform: uppercase;
 
 }
 
 h3, h4 {
-    font-family: '29LTAzer', Helvetica, Arial, sans-serif;
-    color: #E9A880 ;
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--primaryOrange) ;
     margin-top: 2em;
 }
 
 p {
-    font-family: 'Nunito', Helvetica, sans-serif;
-    color: #2E3E4D;
+    font-family: 'Nunito' , sans-serif;
+    color: var(--primaryDark);
 }
 
 button {
-    background-color: #E9A880;
+    background-color: var(--primaryOrange);
     color: white;
     border-radius: 2px 8px;
     border-width: 0;
@@ -60,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #B34524;
+    background-color: var(--secondaryOrange);
     transform: translate(1px, 1px);
     cursor: pointer;
 }
@@ -70,17 +51,45 @@ em {
     font-style: normal;
 }
 
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
 .bigRd{
     border-radius: 2px 15px;
 }
 
-input {
+.hover:hover{
+    cursor:pointer;
+}
+
+input,textarea,select {
     border: gainsboro 1px solid;
     border-radius: 1px;
     background-color: #f2f2f2;
+    margin: 0.5rem 0 1.5rem 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    border-radius: 2px 7px;
 }
 
-input:focus{
+input:focus, select:focus, textarea:focus {
     box-shadow: 0px 0px 4px 4px gainsboro;
     outline: none;
+}
+
+textarea::placeholder {
+    font-family: "Nunito", sans-serif;
+}
+
+
+.littleInput:invalid:focus{
+    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.5), -1px -1px 5px rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 920px){
+    .flexRow{
+        flex-direction: column;
+    }
 }
